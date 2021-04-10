@@ -18,6 +18,8 @@ class Warrior:
     def block(self):
         block = self.max_block * random.random()
         return block
+    
+    
 # Now we will define the Battle class, that will handle the battle simulation. We don't have to declare a initiator method for this class.
 class Battle:
 
